@@ -1,0 +1,62 @@
+/* src/pages/Home/styles/Dialog.css */
+
+.dialog {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.dialog .form-group {
+  margin-bottom: 15px;
+}
+
+.dialog label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dialog input,
+.dialog textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dialog-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dialog button {
+  background-color: rgba(241, 192, 169, 1.0);
+  color: #000;
+  border: ridge black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Product Sans Bold', sans-serif;
+}
+
+.dialog button[type="button"] {
+  background-color: rgba(241, 192, 169, 1.0);
+}
+
+.dialog button:hover {
+  background-color: #0056b3;
+}
+
+.dialog button[type="button"]:hover {
+  background-color: #5a6268;
+}

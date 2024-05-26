@@ -1,0 +1,50 @@
+/* src/pages/Home/styles/Header.css */
+
+.header-container {
+  height: 70px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(241, 192, 169, 1.0);
+
+}
+
+.header-logo {
+  height: 250px;
+  width: 250px;
+  background-image: url('../images/Logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 25%;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%; 
+  margin-right: 25%; 
+}
+
+.social-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  color: black; 
+  border: 1px solid black; 
+  border-radius: 50%; 
+}
+h1 {
+
+  font-size: 24px;
+  margin-top: 20px; 
+  color: #333; 
+  white-space: nowrap;
+  font-family: 'Product Sans Bold', sans-serif;
+}

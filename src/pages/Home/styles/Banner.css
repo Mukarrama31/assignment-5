@@ -1,0 +1,44 @@
+/* src/pages/Home/styles/Banner.css */
+
+.banner {
+    position: absolute;
+    top: 50px;
+    left: 490px;
+    width: 50%;
+    height: 50px;
+    border: ridge black;
+    background-color: rgba(241, 192, 169, 0.5);
+    text-align: center;
+    font-family: 'Product Sans Bold', sans-serif;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    line-height: 0.5;
+}
+
+.banner-links {
+    display: flex;
+    gap: 150px;
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 1;
+    color: black;
+}
+
+.banner-link {
+    text-decoration: none;
+}
+
+.banner-link:hover,
+.banner-link:active,
+.banner-link:visited {
+    color: black;
+}

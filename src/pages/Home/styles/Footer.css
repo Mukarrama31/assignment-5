@@ -1,0 +1,38 @@
+/* src/pages/Home/styles/Footer.css */
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(241, 192, 169, 1.0);
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dialog-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(241, 192, 169, 1.0);
+    color: black;
+    border: ridge black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Product Sans Bold', sans-serif;
+    font-size: 24px;
+}
+
+.dialog-button:hover {
+    background-color: deeppink;
+}

@@ -1,0 +1,23 @@
+/* src/pages/Home/components/Sorter.css */
+
+.sorter-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(241, 192, 169, 1.0);
+}
+
+.sort-button {
+    background-color: rgba(241, 192, 169, 0.5);
+    color: #000; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 125px 10px;
+}
+
+.sort-button:hover {
+    background-color: #e5b2a8; 
+}
+
+
