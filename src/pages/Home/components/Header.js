@@ -11,13 +11,13 @@ const Header = () => {
             <Link to="/" className="header-logo"></Link>
             <h1>LeMagisin | All Under One Roof!</h1>
             <div className="social-icons">
-                <Link to="/not-found" className="social-icon">
+                <Link to="https://x.com/lemagisinstore" className="social-icon">
                     <FaTwitter/>
                 </Link>
-                <Link to="/not-found" className="social-icon">
+                <Link to="https://facebook.com/lemagisinstore" className="social-icon">
                     <FaFacebook/>
                 </Link>
-                <Link to="/not-found" className="social-icon">
+                <Link to="https://instagram.com/lemagisinstore" className="social-icon">
                     <FaInstagram/>
                 </Link>
             </div>
